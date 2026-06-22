@@ -1,0 +1,7 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Veil hood mark</title>
+  <desc id="desc">A minimal dark protective hood with a V-shaped bottom.</desc>
+  <path d="M84 418C88 238 139 86 256 50C373 86 424 238 428 418L314 418L256 478L198 418L84 418Z" fill="#111827"/>
+  <path d="M141 384C151 234 189 143 256 118C323 143 361 234 371 384H303L256 432L209 384H141Z" fill="#1F2937"/>
+  <path d="M209 384L256 432L303 384H371C361 234 323 143 256 118C189 143 151 234 141 384H209Z" stroke="#7C3AED" stroke-width="18" stroke-linejoin="round"/>
+</svg>

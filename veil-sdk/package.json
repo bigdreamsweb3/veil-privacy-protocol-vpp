@@ -1,0 +1,18 @@
+{
+  "name": "@veil-protocol/sdk",
+  "version": "0.1.0",
+  "description": "TypeScript SDK for Veil Privacy Protocol integrations.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json --noEmit",
+    "lint": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

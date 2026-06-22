@@ -1,0 +1,13 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Veil protected stablecoin template</title>
+  <desc id="desc">A Veil hood with a visible lower-quarter stablecoin insert showing the protected version of a token.</desc>
+  <circle cx="256" cy="350" r="122" fill="#2775CA"/>
+  <path d="M165 350C165 300 206 259 256 259C306 259 347 300 347 350C347 400 306 441 256 441C206 441 165 400 165 350Z" fill="#3B82F6"/>
+  <path d="M256 286V414" stroke="white" stroke-width="18" stroke-linecap="round"/>
+  <path d="M222 321C234 304 278 304 290 321C302 338 278 350 256 350C234 350 210 362 222 379C234 396 278 396 290 379" stroke="white" stroke-width="18" stroke-linecap="round"/>
+  <path d="M84 418C88 238 139 86 256 50C373 86 424 238 428 418H314L256 478L198 418H84Z" fill="#0B1120" fill-opacity="0.96"/>
+  <path d="M141 384C151 234 189 143 256 118C323 143 361 234 371 384H303L256 432L209 384H141Z" fill="#111827"/>
+  <path d="M141 384H209L256 432L303 384H371C371 384 363 446 256 472C149 446 141 384 141 384Z" fill="#2775CA"/>
+  <path d="M209 384L256 432L303 384H371C361 234 323 143 256 118C189 143 151 234 141 384H209Z" stroke="#7C3AED" stroke-width="18" stroke-linejoin="round"/>
+  <path d="M214 390C226 408 286 408 298 390" stroke="white" stroke-width="14" stroke-linecap="round"/>
+</svg>
