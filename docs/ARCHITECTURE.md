@@ -1,9 +1,15 @@
 # Veil Privacy Protocol Architecture
 
+
 **Version:** v1 confidential-transfer foundation  
 **Status:** Buildable foundation; pending full audit and deployment-specific IDL adapters
 
 Veil Privacy Protocol (VPP) is a non-custodial confidential stablecoin infrastructure layer on Solana. It converts verified stablecoin mints into Token-2022 vAssets and keeps a strict 1:1 reserve accounting invariant.
+
+**Version:** v1 design skeleton  
+**Status:** Early implementation
+
+Veil Privacy Protocol (VPP) is a non-custodial confidential stablecoin infrastructure layer on Solana. It converts standard stablecoins into vAssets, allowing protected balances and private transfers while enforcing 1:1 reserve backing.
 
 ## High-Level System
 
