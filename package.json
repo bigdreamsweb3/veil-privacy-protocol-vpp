@@ -1,0 +1,17 @@
+{
+  "name": "veil-privacy-protocol",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Non-custodial confidential stablecoin infrastructure on Solana.",
+  "workspaces": [
+    "veil-sdk"
+  ],
+  "scripts": {
+    "build": "cargo build --workspace && npm --workspace veil-sdk run build",
+    "test": "cargo test --workspace && npm --workspace veil-sdk test",
+    "lint": "npm --workspace veil-sdk run lint"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

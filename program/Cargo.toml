@@ -1,0 +1,21 @@
+[package]
+name = "veil-vault"
+version = "0.1.0"
+description = "Anchor program skeleton for Veil Vault"
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "veil_vault"
+
+[features]
+default = []
+no-entrypoint = []
+no-idl = []
+cpi = ["no-entrypoint"]
+
+[dependencies]
+anchor-lang.workspace = true
+anchor-spl.workspace = true
