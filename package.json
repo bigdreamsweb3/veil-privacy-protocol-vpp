@@ -9,7 +9,14 @@
   "scripts": {
     "build": "cargo build --workspace && npm --workspace veil-sdk run build",
     "test": "cargo test --workspace && npm --workspace veil-sdk test",
-    "lint": "npm --workspace veil-sdk run lint"
+    "lint": "npm --workspace veil-sdk run lint",
+    "// === Git & Deployment ===": "Repository helpers. Review git status before committing or pushing.",
+    "git:status": "git status --short",
+    "git:hygiene": "node scripts/git-hygiene-check.mjs",
+    "git:hygiene:report": "node scripts/git-hygiene-check.mjs --write-report --warn-only",
+    "git:hygiene:fix": "node scripts/git-hygiene-check.mjs --fix",
+    "git:pull:all": "git pull origin main",
+    "git:commit:push:all": "git add -A && git commit -m \"Something just got updated! \" && git push origin main"
   },
   "devDependencies": {
     "typescript": "^5.4.0"
